@@ -1,0 +1,48 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# uv
+uv.lock
+
+# 3GPP specifications (large binaries — download locally)
+specs/raw/*
+specs/docx/*
+specs/text/*
+!specs/raw/.gitkeep
+!specs/docx/.gitkeep
+!specs/text/.gitkeep
+
+# Vector DB
+chroma_db/
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
