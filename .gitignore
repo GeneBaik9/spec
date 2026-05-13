@@ -21,9 +21,11 @@ uv.lock
 # 3GPP specifications (large binaries — download locally)
 specs/raw/*
 specs/docx/*
+specs/pdf/*
 specs/text/*
 !specs/raw/.gitkeep
 !specs/docx/.gitkeep
+!specs/pdf/.gitkeep
 !specs/text/.gitkeep
 
 # Vector DB
